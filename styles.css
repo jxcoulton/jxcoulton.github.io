@@ -2,25 +2,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	background-color: rgb(141, 147, 156);
-	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-.profilePic {
-	height: 100%;
-	margin: 0 0 0 50px;
-}
-
-.container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	width: 80%;
-	margin: 15px 15px 15px 15px;
-	padding: 20px 20px 20px 20px;
-	background-color: rgb(174, 180, 179);
-
-	box-shadow: -1px 6px 10px 5px rgba(100, 100, 100, 100);
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	margin: 0%;
 }
 
 .row {
@@ -30,36 +14,115 @@ body {
 	flex-wrap: wrap;
 }
 
-a {
+#skills {
 	padding: 30px 30px 30px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 50px 0.25px rgb(117, 117, 117);
+	width: 80%;
 }
 
-.skills {
+#about {
 	padding: 30px 30px 30px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	box-shadow: 0px 0px 50px 0.25px rgb(117, 117, 117);
+	width: 80%;
+}
+
+#projects {
+	padding: 30px 30px 30px 30px;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0px 0px 50px 0.25px rgb(117, 117, 117);
+	width: 80%;
+}
+
+#contact {
+	padding: 0px 30px 0px 30px;
+	display: flex;
+	flex-direction: column;
+	/* box-shadow: 0px 0px 50px 0.25px rgb(117, 117, 117); */
+	/* width: 100%; */
+}
+
+#links {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 0 0 0 0;
+}
+#line {
+	width: 1px;
+	height: 200px;
+	background-color: black;
+	margin: 20px 20px 20px 20px;
+}
+
+#wideline {
+	width: 60%;
+	height: 1px;
+	background-color: goldenrod;
+	margin: 20px 20px 20px 20px;
 }
 
 .youtube {
-	max-width: 75%;
+	max-width: 80%;
 }
 
-.picture {
+div {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	align-items: center;
-	flex-wrap: wrap;
-	height: 200px;
-	margin: 10px 10px 10px 10px;
+	margin: 15px 15px 15px 15px;
+	/* width: 80%;
+	padding: 20px 20px 20px 20px;
+	background-color: rgb(174, 180, 179);
+
+	box-shadow: -1px 3px 10px 1px rgba(100, 100, 100, 100); */
 }
 
 h1 {
-	font-size: 64px;
+	font-size: 58px;
+	color: black;
+	letter-spacing: 5px;
+	margin: 10px 10px 10px 10px;
 }
 
 h2 {
-	font-size: 38px;
+	font-size: 34px;
+	color: rgb(341, 89, 70);
 }
 
 p {
-	font-size: 24px;
+	font-size: 20px;
 	padding: 10px 100px 10px 100px;
+}
+header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-image: url(https://www.providermagazine.com/Monthly-Issue/2013/PublishingImages/0113/tech-banner0113.jpg);
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0px 0px 50px 0.25px rgb(117, 117, 117);
+}
+
+a {
+	padding: 10px 30px 5px 30px;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+#margin {
+	margin: 0 5px 5px 5px;
 }
