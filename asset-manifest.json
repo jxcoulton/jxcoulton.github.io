@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jxcoulton.github.io/static/css/main.5becc1ec.chunk.css",
+    "main.js": "/jxcoulton.github.io/static/js/main.569c7c9d.chunk.js",
+    "main.js.map": "/jxcoulton.github.io/static/js/main.569c7c9d.chunk.js.map",
+    "runtime-main.js": "/jxcoulton.github.io/static/js/runtime-main.a93f8b5a.js",
+    "runtime-main.js.map": "/jxcoulton.github.io/static/js/runtime-main.a93f8b5a.js.map",
+    "static/css/2.679831fc.chunk.css": "/jxcoulton.github.io/static/css/2.679831fc.chunk.css",
+    "static/js/2.ed9085aa.chunk.js": "/jxcoulton.github.io/static/js/2.ed9085aa.chunk.js",
+    "static/js/2.ed9085aa.chunk.js.map": "/jxcoulton.github.io/static/js/2.ed9085aa.chunk.js.map",
+    "index.html": "/jxcoulton.github.io/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/jxcoulton.github.io/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.5becc1ec.chunk.css.map": "/jxcoulton.github.io/static/css/main.5becc1ec.chunk.css.map",
+    "static/js/2.ed9085aa.chunk.js.LICENSE.txt": "/jxcoulton.github.io/static/js/2.ed9085aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a93f8b5a.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.ed9085aa.chunk.js",
+    "static/css/main.5becc1ec.chunk.css",
+    "static/js/main.569c7c9d.chunk.js"
+  ]
+}
